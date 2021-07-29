@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark">
+	<head>
+		<title> Papagaio </title>
+		<meta charset="utf-8">
+		<meta name="Description" content="Software para repetir em áudio o que se digita, e para repetir em texto o que se fala.">
+		<link rel="stylesheet" href="/estilo.css">
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+
+
+	</head>
+	<body style="text-align: center">
+		<img src="Papagaio.png" alt="Papagaio - Reproduz texto ou fala">
+		<h1> Papagaio </h1>
+		<h3>Software para repetir em áudio o que se digita, e para repetir em texto o que se fala.</h3>
+		<textarea id="texto" rows=15 cols=70>Digite aqui o texto a ser reproduzido em voz ao se pressionar o botão "Reproduzir", ou pressione o botão "Gravar" para gravar um áudio a ser reproduzido aqui.</textarea><br/>
+		<img src="Microfone.png" usemap="#gravar" alt="Gravar">
+		<map name="gravar">
+			<area shape="default" alt="Gravar" href="gravar.py">
+		</map>
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		&nbsp;
+		<img src="Alto-falante.png" usemap="#reproduzir" alt="Reproduzir">
+		<map name="reproduzir">
+			<area shape="default" alt="Reproduzir" href="reproduzir.py">
+		</map>
+	</body>
+</html>
