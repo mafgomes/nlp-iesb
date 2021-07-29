@@ -1,0 +1,2 @@
+https://github.com/watson-developer-cloud?language=javascript
+https://github.com/watson-developer-cloud/speech-javascript-sdk
