@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Específico de Mac OS
+__MACOS*
+
 # Distribution / packaging
 .Python
 build/
