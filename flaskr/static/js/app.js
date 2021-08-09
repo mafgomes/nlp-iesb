@@ -24,8 +24,11 @@ convertButton.addEventListener("click", convertText);
 function convertText(){
     var texto = document.getElementById("texto");
     console.log('teste convert')
+    console.log(texto.value)
+    console.log('vou começar a converter...')
     convertButton.disabled = false;
     au = document.getElementById("audioTTS")
+
     data  = {
         "text": texto.value
     }
@@ -34,7 +37,7 @@ function convertText(){
     {method:"post",
     body: JSON.stringify({data})
     }).then(function(response) {
-        //console.log(response.body )
+        console.log(response.body )
         response.text().then(function (text) {
             var data = JSON.parse(text);
             console.log(data.path)
