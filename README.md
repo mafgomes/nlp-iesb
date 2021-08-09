@@ -7,6 +7,9 @@ Criado como trabalho final em grupo da disciplina de Computação Cognitiva 2 da
 ## Integrantes do grupo:
 
 Aristóteles Reis de Sousa
+
 Kleber de Barros Alcanfor
+
 Marcelo Amarante Ferreira Gomes
+
 Toni Patrick Falcão
